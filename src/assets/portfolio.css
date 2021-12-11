@@ -1,0 +1,79 @@
+.project-section {
+    margin-bottom: 45px;
+    background-color: #066990;
+}
+
+.project-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.project-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    gap: 2rem;
+    justify-content: center;
+    padding: 25px 25px 25px 25px;
+}
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px #999eaa;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 200ms ease-in;
+}
+
+.card-image {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 2px 20px #999eaa;
+    border-radius: .2rem;
+}
+
+
+.card-title {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-description {
+    padding: 0 1rem;
+}
+
+.card-btn {
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 1px solid #fdea9c;
+    background: transparent;
+    color: black;
+    border-radius: 5px;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.card-btn a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .card-btn {
+    background: #fdea9c;
+    color: white;
+}
+

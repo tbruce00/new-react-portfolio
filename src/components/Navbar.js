@@ -1,13 +1,12 @@
 import React from "react";
 import '../assets/nav.css';
-import Sidebar from "./MenuLinks";
+// import Sidebar from "./MenuLinks";
+import Sidebar from "./sidebar";
 
 
 const Navbar = () => {
     return (
-        <div id="App">
-        <div>
-        <nav className="navbar sticky-top p-4">
+        <nav className="navbar sticky-top">
             <div className="container nav-container d-fex flex-row align-items-center">
                 <div className="d-flex">
                     <div className="navbar-brand d-flex align-items-center">
@@ -15,10 +14,11 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <Sidebar/>
+            <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} /> 
+            <div id="page-wrap">
+            </div>
         </nav>
-        </div> 
-        </div>
+        
     )
 };
 

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React from 'react';
-import '../assets/contact.css'
+import '../assets/contact.css';
 
 
 class Form extends React.Component {
@@ -36,18 +36,18 @@ class Form extends React.Component {
         return (
             <form className="contactForm" id="contact-form" onSubmit={this.handleSubmit.bind((this))} method="POST">
                 <div className="form-group">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+                    {/* <label htmlFor="name">Name:</label> */}
+                    <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} placeholder="Name" />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="email">Email Address</label>
-                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+                    {/* <label htmlFor="email">Email Address:</label> */}
+                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} placeholder="Email" />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                    {/* <label htmlFor="message">Message</label> */}
+                    <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} placeholder="Message..."/>
                 </div>
-                <button type="submit" className="btn btn-dark">Submit</button>    
+                <button type="submit" className="form-btn">Submit</button>    
             </form>
         );
     }

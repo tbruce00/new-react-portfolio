@@ -1,0 +1,107 @@
+.project-section {
+    margin-bottom: 45px;
+    background-color: #066990;
+}
+
+.project-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.project-container {
+    border-radius: 50px;
+    width: 100%;
+    /* background-color: #9c8054; */
+    padding: 50px;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 45px;
+}
+
+.fade-background {
+    visibility: visible;
+    opacity: 1;
+    /* background-color: #665740; */
+    display: flex;
+    transition: .2s ease-in;
+}
+
+.project-button {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-out;
+}
+
+/* .first-project {
+    background-image: url("../images/moviegrab.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fdea9c;
+    background-position: 50%;
+}
+
+.second-project {
+    background-image: url("../images/sticky.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.third-project {
+    background-image: url("../images/closingbrackets.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fourth-project {
+    background-image: url("../images/weatherdashboard.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.project-buttons {
+    padding: 1.5rem;
+}
+
+.previewButton {
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 350;
+    font-family: 'Roboto', sans-serif;
+    background-color: #066990;
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.previewButton:hover {
+    transition: .4s;
+    background-color: #063c52;
+}
+
+.gitLink {
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 350;
+    font-family: 'Roboto', sans-serif;
+    background-color: #066990;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.getLink:hover {
+    transition: .4s;
+    background-color: #063c52;
+}

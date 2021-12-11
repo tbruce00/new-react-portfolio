@@ -1,0 +1,51 @@
+.skill-section {
+    margin-bottom: 45px;
+}
+
+.skill-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.skills-box {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #CCC591;
+    padding: 50px;
+    border-radius: 50px;
+    width: 80vw;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.skills-grid li img {
+    width: 80px;
+    height: 80px;
+}
+
+.skill-container {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: cornsilk;
+}
+
+.skill-container p {
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+.skill-logo {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: auto;
+}
+
+ul {
+    list-style: none;
+}
