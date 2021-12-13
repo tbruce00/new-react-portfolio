@@ -1,5 +1,15 @@
+.contact-section {
+    margin-bottom: 45px;
+}
+
+.contact-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
 .contactForm {
-    background: #CCC591;
+    background: #066990;
     border-radius: 40px;
     padding: 15px;
     margin: auto;
@@ -7,7 +17,6 @@
     height: 500px;
     justify-content: center;
 }
-
 
 .pdfIcon {
     size: 45px;

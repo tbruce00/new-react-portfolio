@@ -1,0 +1,28 @@
+.footer-container{
+    background-color: aliceblue;
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.footerIcons {
+    display: flex;
+    color: black;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.footerIcons::hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px thistle;
+}
+
+
+.footerName {
+    margin: 20px 0px 0px 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: whitesmoke;
+}

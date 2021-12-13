@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './assets/app.css';
 import Sidebar from './components/sidebar';
 
@@ -15,9 +16,10 @@ function App() {
     <div id="page-wrap"> 
     <About />
     {/* <AboutMe /> */}
-    <Skills />
     <Projects />
+    <Skills />
     <Contact />
+    <Footer />
     </div>
     </div>
   );
