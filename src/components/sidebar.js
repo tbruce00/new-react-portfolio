@@ -24,7 +24,7 @@ export default props => {
             <a className="menu-item" href="#skills">
              <BsCodeSquare/>   skills
             </a>
-            <a className="menu-item" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:86bec09b-6a3a-4b52-bc3e-813dff4d4c6f" target="_blank" rel="noreferrer">
+            <a className="menu-item" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:7c372746-e514-4d2b-bc0b-56b5ed400058" target="_blank" rel="noreferrer">
              <AiFillFilePdf/>    resume
             </a>
             <a className="menu-item" href="#contact">
