@@ -14,7 +14,7 @@ const AboutMe = () => {
                 </p>
                 <p>
                 Upstate New York native turned Colorado transplant. A graduate of SUNY Brockport with a bachelor's degree in Media Production/Film Studies. 
-                Spent most of my working life in the IT field and took on the coding bootcamp program in search of a change, to realize a passion, with the intention of becoming proficient in coding languages and frameworks. Specializing in React, my goal is in translating the teachings from the bootcamp into a career as a Full Stack Web Developer!     
+                Spent most of my working life in the IT field and took on the coding bootcamp program in search of a change, to realize a passion, with the intention of becoming proficient in programming languages and frameworks. Specializing in React, my goal is in translating the teachings from the bootcamp into a career as a Full Stack Web Developer!     
                 </p>
                 <p>
                 In my free time I enjoy spending time in the dichotomy of natural wonders and urban landscapes. I enjoy backpacking trips with friends and exploring the surroundings of my city. As well as a good film or book on less adventurous evenings.     
