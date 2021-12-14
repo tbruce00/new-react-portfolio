@@ -15,7 +15,7 @@ export default props => {
                 <img className="logo-icon" src="/images/TB1-logos_white.png" alt="TB-Logo" />
                 </a>
             </div>
-            <a className="menu-item" href="#about">
+            <a className="menu-item" href="#about-me">
              <MdEmojiPeople />   about
             </a>
             <a className="menu-item" href="#projects">

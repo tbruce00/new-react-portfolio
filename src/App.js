@@ -15,7 +15,7 @@ function App() {
     <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} /> 
     <div id="page-wrap"> 
     <About />
-    {/* <AboutMe /> */}
+    <AboutMe />
     <Projects />
     <Skills />
     <Contact />
