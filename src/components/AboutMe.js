@@ -26,39 +26,6 @@ const AboutMe = () => {
                 </p>
             </div>         
             </div>
-            {/* <div className="social-icons">
-                <ul>
-                    <li className="list active">
-                        <a href="">
-                            <span className="icon"></span>
-                            <AiFillLinkedin/>
-                            <span className="text">Resume</span>
-                        </a>
-                    </li>
-                    <li className="list">
-                        <a href="">
-                            <span className="icon"></span>
-                            <AiFillFilePdf/>
-                            <span className="text">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li className="list">
-                        <a href="">
-                            <span className="icon"></span>
-                            <AiFillGithub/>
-                            <span className="text">GitHub</span>
-                        </a>
-                    </li>
-                    <li className="list">
-                        <a href="">
-                            <span className="icon"></span>
-                            <AiFillInstagram/>
-                            <span className="text">Instagram</span>
-                        </a>
-                    </li>
-                    <div className="indicator"></div>
-                </ul>
-            </div> */}
         </section>
 
     )
