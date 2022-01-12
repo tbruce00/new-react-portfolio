@@ -11,7 +11,7 @@
 .skills-box {
     text-align: center;
     font-size: 1rem;
-    background-color: #AA9d97;
+    background-color: #5bc0be;
     padding: 50px;
     border-radius: 50px;
     width: 80vw;
@@ -32,7 +32,7 @@
 .skill-container {
     padding: 10px;
     border-radius: 20px;
-    background-color: #D5DDDF;
+    background-color: #8cc7a1;
 }
 
 .skill-container p {

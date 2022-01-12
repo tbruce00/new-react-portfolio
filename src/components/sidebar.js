@@ -27,7 +27,7 @@ export default props => {
             <a className="menu-item" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:7c372746-e514-4d2b-bc0b-56b5ed400058" target="_blank" rel="noreferrer">
              <AiFillFilePdf/>    resume
             </a>
-            <a className="menu-item" href="#contact">
+            <a className="menu-item" href="mailto:tbnyk03@gmail.com">
              <AiOutlineMail />   contact
             </a>
         </Menu>

@@ -3,9 +3,13 @@
 }
 
 .profImg {
-    border-radius: 40px;
-    border-style: groove;
-    border-color: black;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    border-style: solid;
+    border-color: #0a7e8c;
+    border-width: 5px;
     width: 300px;
     height: 250px;
 }
