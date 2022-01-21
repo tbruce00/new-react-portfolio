@@ -8,7 +8,7 @@ const About = () => {
             <div className="container">
                 <div className="row d-flex justify-content-between align-items-center mx-auto">
                 <div className="col-12">
-                <img className="profImg" src="/images/IMG_1798.JPG" alt="Trevor Bruce Face"/>
+                <img className="profImg" src="/images/T_Bruce.png" alt="Trevor Bruce Face"/>
                 <h1 className="h1 header-text display-1">Hello, I'm Trevor Bruce</h1>
                 <h3 className="type-writer">
                 <Typewriter

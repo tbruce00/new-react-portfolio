@@ -11,7 +11,7 @@ const projectList = [
     {
         projectId: 2,
         projectImg: "/images/sticky.png",
-        projectName: "Stick It To Me",
+        projectName: "Sticky",
         projectDescription:"A social application that allows users to interactively create and plan events. Technologies Used: HTML, CSS, JS, mySql, Handlebars, Jquery",
         previewLink:"https://boiling-garden-97737.herokuapp.com/",
         githubLink:"https://github.com/CWhirl/Project-2"
@@ -20,7 +20,7 @@ const projectList = [
         projectId: 3,
         projectImg: "/images/closingbrackets.png",
         projectName: "Closing Brackets",
-        projectDescription:"An application for developers to connect with other developers and potential employers utilizing their github profile. Technologies Used: HTML, CSS, JS, React, Express, Node, Apollo",
+        projectDescription:"An application for developers to connect and network with other developers and potential employers utilizing their github profile. Technologies Used: HTML, CSS, JS, React, Express, Node, Apollo",
         previewLink:"https://sheltered-spire-55566.herokuapp.com/",
         githubLink:"https://github.com/CWhirl/Project-2"
     },
